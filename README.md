@@ -9,12 +9,4 @@ Link - https://www.figma.com/file/5L9Kz4adDjbBJzmPyZJeMm/Assignment?type=design&
 
 ## Screenshots (final-product)
 
-![CHEESE!](src\assets\Screenshots\1.png)
-
-![CHEESE!](src\assets\Screenshots\2.png)
-
-![CHEESE!](src\assets\Screenshots\3.png)
-
-![CHEESE!](src\assets\Screenshots\4.png)
-
-![CHEESE!](src\assets\Screenshots\5.png)
+Link - https://drive.google.com/drive/folders/126X0xXnUtlxnf87iCpVyM4_-9tP9tHOd?usp=sharing
