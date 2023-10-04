@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    background-color: #ededf7;
+    padding: 0 24rem;
+}
+
+.filter{
+    display: flex;
+}
+
+.filter_btn{
+    margin: 1rem;
+    padding: 1rem 2rem;
+    background-color: #e2e1f0;
+    border-radius: 25px;
+    color: #5C5C5D;
+    border: none;
+}
+
+.filter_btn:focus{
+    color: white;
+    background-color: blue;
+}
+
+.viewAll{
+    margin: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    border: 1px solid blue;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}

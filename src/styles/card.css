@@ -1,0 +1,108 @@
+.productList{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+  }
+  
+  .productCard{
+    border-radius: 15px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    margin: 1rem;
+    flex: 1 0 25rem;
+    max-width: 31rem;
+    max-height: 50rem;
+    transition: 0.2s;
+  }
+  
+  .productCard:hover{
+    transform: translateY(-0.5rem);
+    box-shadow: 0.5rem 0.75rem 1.5rem #a5a5a5;
+  }
+  
+  .productImage{
+    border-radius: 10px;
+    margin: 0.5rem;
+    width: 300px;
+    height: 200px;
+  }
+  
+  .productCard__like{
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 4px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: blue;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  .productCard__tag{
+    position: absolute;
+    font-size: 1.3rem;
+    font-weight: bold;
+    left: 0;
+    margin: 1rem;
+    padding: 1rem 1.5rem;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    border-radius: 25px;
+  }
+  
+  .productCard__content{
+    margin: 2rem;
+  }
+  
+  .productName{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #4d4d4d;
+  }
+  
+  .displayStack__1,
+  .displayStack__2{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .productPrice{
+    font-size: 2rem;
+    font-weight: bold;
+    color: blue;
+  }
+
+  .productPrice span{
+    font-size: 1.5rem;
+    color: #4d4d4d;
+  }
+  
+  .productMeasures{
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #252525;
+  }
+
+  .readMore{
+    border: blue solid 1px;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+    color: blue;
+  }
+
+  .productCard__location{
+    font-size: 1.5rem;
+    color: #4d4d4d;
+  }
