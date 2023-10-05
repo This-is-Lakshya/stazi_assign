@@ -6,11 +6,9 @@ const Routers = () => {
     return (
       <Routes>
           <Route path='/' element={<Navigate to='/home' />} />
-          <Route path='/home' element={<App />} />
-
-          <Route path='/property' element={<PropertyDetails />} />
+          <Route path='/property/:id' element={<PropertyDetails />} />
       </Routes>
     )
   }
   
-  export default Routers
+  export default Routers;

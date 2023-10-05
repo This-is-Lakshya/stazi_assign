@@ -3,6 +3,7 @@ import content from './assets/data/data.json';
 import Card from './components/Card';
 import './styles/header.css';
 import './App.css';
+import Routers from './routes/Routers';
 
 function App() {
 
@@ -42,6 +43,8 @@ function App() {
       </div>
       <div className='viewAll'>View All <i class="ri-arrow-right-line"></i></div>
     </div>
+
+    <Routers />
 
     {/* ________________ APP _________________*/}
     <div className="App">

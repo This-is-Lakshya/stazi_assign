@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/card.css';
-import { Navigate } from 'react-router-dom';
+import { Navigate, Link } from 'react-router-dom';
 
 const Card = (props) => {
   return (
@@ -14,7 +14,9 @@ const Card = (props) => {
 
         <div className="productCard__content">
           <span className='productCard__location'><i class="ri-map-pin-2-line">{props.location}</i></span>
-          <h3 className='productName'>{props.name}</h3>
+          <h3 className='productName'>
+            <Link to={`/property/:id`} >{props.name}</Link>
+          </h3>
           <div className="displayStack__1">
             <div className="productMeasures">
               <i class="ri-community-line"></i>
