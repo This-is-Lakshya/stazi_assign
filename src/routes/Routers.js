@@ -1,5 +1,4 @@
 import {Routes, Route, Navigate} from 'react-router-dom';
-import App from '../App';
 import PropertyDetails from '../pages/PropertyDetails';
 
 const Routers = () => {

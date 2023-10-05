@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/card.css';
-import { Navigate, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Card = (props) => {
   return (
